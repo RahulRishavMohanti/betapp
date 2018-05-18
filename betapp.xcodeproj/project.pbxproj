@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6B5F4B220AF7141006F3DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5F4B120AF7141006F3DAD /* AppDelegate.swift */; };
+		C6B5F4B420AF7141006F3DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5F4B320AF7141006F3DAD /* ViewController.swift */; };
+		C6B5F4B720AF7141006F3DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B5F4B520AF7141006F3DAD /* Main.storyboard */; };
+		C6B5F4B920AF7144006F3DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B5F4B820AF7144006F3DAD /* Assets.xcassets */; };
+		C6B5F4BC20AF7144006F3DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B5F4BA20AF7144006F3DAD /* LaunchScreen.storyboard */; };
+		C6B5F4C720AF7144006F3DAD /* betappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5F4C620AF7144006F3DAD /* betappTests.swift */; };
+		C6B5F4D220AF7144006F3DAD /* betappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5F4D120AF7144006F3DAD /* betappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B5F4C320AF7144006F3DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B5F4A620AF7141006F3DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B5F4AD20AF7141006F3DAD;
+			remoteInfo = betapp;
+		};
+		C6B5F4CE20AF7144006F3DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B5F4A620AF7141006F3DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B5F4AD20AF7141006F3DAD;
+			remoteInfo = betapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6B5F4AE20AF7141006F3DAD /* betapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B5F4B120AF7141006F3DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6B5F4B320AF7141006F3DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B5F4B620AF7141006F3DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B5F4B820AF7144006F3DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B5F4BB20AF7144006F3DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6B5F4BD20AF7144006F3DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B5F4C220AF7144006F3DAD /* betappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B5F4C620AF7144006F3DAD /* betappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betappTests.swift; sourceTree = "<group>"; };
+		C6B5F4C820AF7144006F3DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B5F4CD20AF7144006F3DAD /* betappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B5F4D120AF7144006F3DAD /* betappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betappUITests.swift; sourceTree = "<group>"; };
+		C6B5F4D320AF7144006F3DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B5F4AB20AF7141006F3DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B5F4BF20AF7144006F3DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B5F4CA20AF7144006F3DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B5F4A520AF7141006F3DAD = {
+			isa = PBXGroup;
+			children = (
+				C6B5F4B020AF7141006F3DAD /* betapp */,
+				C6B5F4C520AF7144006F3DAD /* betappTests */,
+				C6B5F4D020AF7144006F3DAD /* betappUITests */,
+				C6B5F4AF20AF7141006F3DAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B5F4AF20AF7141006F3DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B5F4AE20AF7141006F3DAD /* betapp.app */,
+				C6B5F4C220AF7144006F3DAD /* betappTests.xctest */,
+				C6B5F4CD20AF7144006F3DAD /* betappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B5F4B020AF7141006F3DAD /* betapp */ = {
+			isa = PBXGroup;
+			children = (
+				C6B5F4B120AF7141006F3DAD /* AppDelegate.swift */,
+				C6B5F4B320AF7141006F3DAD /* ViewController.swift */,
+				C6B5F4B520AF7141006F3DAD /* Main.storyboard */,
+				C6B5F4B820AF7144006F3DAD /* Assets.xcassets */,
+				C6B5F4BA20AF7144006F3DAD /* LaunchScreen.storyboard */,
+				C6B5F4BD20AF7144006F3DAD /* Info.plist */,
+			);
+			path = betapp;
+			sourceTree = "<group>";
+		};
+		C6B5F4C520AF7144006F3DAD /* betappTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B5F4C620AF7144006F3DAD /* betappTests.swift */,
+				C6B5F4C820AF7144006F3DAD /* Info.plist */,
+			);
+			path = betappTests;
+			sourceTree = "<group>";
+		};
+		C6B5F4D020AF7144006F3DAD /* betappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B5F4D120AF7144006F3DAD /* betappUITests.swift */,
+				C6B5F4D320AF7144006F3DAD /* Info.plist */,
+			);
+			path = betappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B5F4AD20AF7141006F3DAD /* betapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B5F4D620AF7144006F3DAD /* Build configuration list for PBXNativeTarget "betapp" */;
+			buildPhases = (
+				C6B5F4AA20AF7141006F3DAD /* Sources */,
+				C6B5F4AB20AF7141006F3DAD /* Frameworks */,
+				C6B5F4AC20AF7141006F3DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = betapp;
+			productName = betapp;
+			productReference = C6B5F4AE20AF7141006F3DAD /* betapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B5F4C120AF7144006F3DAD /* betappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B5F4D920AF7144006F3DAD /* Build configuration list for PBXNativeTarget "betappTests" */;
+			buildPhases = (
+				C6B5F4BE20AF7144006F3DAD /* Sources */,
+				C6B5F4BF20AF7144006F3DAD /* Frameworks */,
+				C6B5F4C020AF7144006F3DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B5F4C420AF7144006F3DAD /* PBXTargetDependency */,
+			);
+			name = betappTests;
+			productName = betappTests;
+			productReference = C6B5F4C220AF7144006F3DAD /* betappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6B5F4CC20AF7144006F3DAD /* betappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B5F4DC20AF7144006F3DAD /* Build configuration list for PBXNativeTarget "betappUITests" */;
+			buildPhases = (
+				C6B5F4C920AF7144006F3DAD /* Sources */,
+				C6B5F4CA20AF7144006F3DAD /* Frameworks */,
+				C6B5F4CB20AF7144006F3DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B5F4CF20AF7144006F3DAD /* PBXTargetDependency */,
+			);
+			name = betappUITests;
+			productName = betappUITests;
+			productReference = C6B5F4CD20AF7144006F3DAD /* betappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B5F4A620AF7141006F3DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rahul Rishav Mohanti";
+				TargetAttributes = {
+					C6B5F4AD20AF7141006F3DAD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C6B5F4C120AF7144006F3DAD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C6B5F4AD20AF7141006F3DAD;
+					};
+					C6B5F4CC20AF7144006F3DAD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C6B5F4AD20AF7141006F3DAD;
+					};
+				};
+			};
+			buildConfigurationList = C6B5F4A920AF7141006F3DAD /* Build configuration list for PBXProject "betapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B5F4A520AF7141006F3DAD;
+			productRefGroup = C6B5F4AF20AF7141006F3DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B5F4AD20AF7141006F3DAD /* betapp */,
+				C6B5F4C120AF7144006F3DAD /* betappTests */,
+				C6B5F4CC20AF7144006F3DAD /* betappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B5F4AC20AF7141006F3DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B5F4BC20AF7144006F3DAD /* LaunchScreen.storyboard in Resources */,
+				C6B5F4B920AF7144006F3DAD /* Assets.xcassets in Resources */,
+				C6B5F4B720AF7141006F3DAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B5F4C020AF7144006F3DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B5F4CB20AF7144006F3DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B5F4AA20AF7141006F3DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B5F4B420AF7141006F3DAD /* ViewController.swift in Sources */,
+				C6B5F4B220AF7141006F3DAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B5F4BE20AF7144006F3DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B5F4C720AF7144006F3DAD /* betappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B5F4C920AF7144006F3DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B5F4D220AF7144006F3DAD /* betappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B5F4C420AF7144006F3DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B5F4AD20AF7141006F3DAD /* betapp */;
+			targetProxy = C6B5F4C320AF7144006F3DAD /* PBXContainerItemProxy */;
+		};
+		C6B5F4CF20AF7144006F3DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B5F4AD20AF7141006F3DAD /* betapp */;
+			targetProxy = C6B5F4CE20AF7144006F3DAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B5F4B520AF7141006F3DAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B5F4B620AF7141006F3DAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B5F4BA20AF7144006F3DAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B5F4BB20AF7144006F3DAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B5F4D420AF7144006F3DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6B5F4D520AF7144006F3DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B5F4D720AF7144006F3DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDJ9US37MV;
+				INFOPLIST_FILE = betapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RRM.betapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6B5F4D820AF7144006F3DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDJ9US37MV;
+				INFOPLIST_FILE = betapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RRM.betapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6B5F4DA20AF7144006F3DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDJ9US37MV;
+				INFOPLIST_FILE = betappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RRM.betappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betapp.app/betapp";
+			};
+			name = Debug;
+		};
+		C6B5F4DB20AF7144006F3DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDJ9US37MV;
+				INFOPLIST_FILE = betappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RRM.betappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betapp.app/betapp";
+			};
+			name = Release;
+		};
+		C6B5F4DD20AF7144006F3DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDJ9US37MV;
+				INFOPLIST_FILE = betappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RRM.betappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = betapp;
+			};
+			name = Debug;
+		};
+		C6B5F4DE20AF7144006F3DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDJ9US37MV;
+				INFOPLIST_FILE = betappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RRM.betappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = betapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B5F4A920AF7141006F3DAD /* Build configuration list for PBXProject "betapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B5F4D420AF7144006F3DAD /* Debug */,
+				C6B5F4D520AF7144006F3DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B5F4D620AF7144006F3DAD /* Build configuration list for PBXNativeTarget "betapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B5F4D720AF7144006F3DAD /* Debug */,
+				C6B5F4D820AF7144006F3DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B5F4D920AF7144006F3DAD /* Build configuration list for PBXNativeTarget "betappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B5F4DA20AF7144006F3DAD /* Debug */,
+				C6B5F4DB20AF7144006F3DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B5F4DC20AF7144006F3DAD /* Build configuration list for PBXNativeTarget "betappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B5F4DD20AF7144006F3DAD /* Debug */,
+				C6B5F4DE20AF7144006F3DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B5F4A620AF7141006F3DAD /* Project object */;
+}
